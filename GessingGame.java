@@ -57,7 +57,8 @@ public class GessingGame {
 		
 		//convert string to number
 		//equal is chacking string value 
-		//cannot use  == since String is an object not primitive value
+		//cannot use  == since String is an object type not primitive data type
+		// using == will checking the reference address not the value 
 		if(animalName.equals("dog")) {
 			animal = 1;
 		} else if (animalName.equals("cat")) {
@@ -69,7 +70,7 @@ public class GessingGame {
 		} 
 		
 		
-		//using == to check the value since interget is a primitive value 
+		//using == to check the value since integer is a primitive data type 
 		if(animal == 1) {
 			System.out.println("Woof Woof");
 		}else if (animal == 2) {
